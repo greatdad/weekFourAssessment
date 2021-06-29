@@ -1,0 +1,30 @@
+fun main(){
+    checkEvenlySpace()
+}
+
+fun checkEvenlySpace() {
+    var first : Int
+    var second : Int
+    var third : Int
+    var test : Int
+    if(first >second){
+	   test = first
+	   first = second
+	   second = test
+	}
+    if (second>third){
+	   test = second
+	   second = third
+	   third = test
+	}
+
+    if (first>third){
+	   test=first
+	   first =third
+	   third=test
+	 
+    if ((second - first) == (third - second)) {
+       return true
+    
+    }
+}
