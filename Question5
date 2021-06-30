@@ -4,7 +4,7 @@ fun main(){
    println( checkEvenlySpace(4,6,3))
 }
 
-fun checkEvenlySpace() {
+fun checkEvenlySpace(): Boolean {
     var first : Int
     var second : Int
     var third : Int
